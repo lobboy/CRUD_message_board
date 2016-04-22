@@ -11,6 +11,6 @@ module.exports = function(req, res, next)
   {
       if(err) throw err;
       
-      res.render('hw6',{userinfos: users});
+      res.render('main',{userinfos: users});
   });
 };
